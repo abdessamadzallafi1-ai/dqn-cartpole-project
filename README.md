@@ -72,8 +72,12 @@ dqn-cartpole-project/
     └── training_progress.png
 
 
-## Training Curve
+## Saved Model
 
-![Training Progress](results/training_progress.png)
+The trained model is saved in:
+
+results/dqn_cartpole_model.h5
+
+This file stores the learned neural network weights in HDF5 format and can be reloaded for evaluation or further training.
 
 

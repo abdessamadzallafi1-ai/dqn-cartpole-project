@@ -80,4 +80,25 @@ results/dqn_cartpole_model.h5
 
 This file stores the learned neural network weights in HDF5 format and can be reloaded for evaluation or further training.
 
+## 📈 Résultats
+
+Le modèle DQN apprend progressivement à équilibrer le CartPole.
+
+![Training curve](results/training_progress.png)
+
+## 💾 Modèle entraîné
+
+Le modèle final est sauvegardé dans :
+
+```bash
+results/dqn_cartpole_model.h5
+```
+
+## ▶️ Lancer le projet
+
+Pour entraîner le modèle :
+
+```bash
+python dqn_cartpole.py
+```
 
